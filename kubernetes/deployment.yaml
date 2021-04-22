@@ -4,6 +4,7 @@ metadata:
   name: ecsdemo-nodejs
   labels:
     app: ecsdemo-nodejs
+    k8s: test
   namespace: argocd-poc
 spec:
   replicas: 2
