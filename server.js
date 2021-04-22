@@ -32,7 +32,7 @@ app.get('/nodejs', function (req, res) {
   res.set({
   'Content-Type': 'text/plain'
 })
-  res.send(`Node.js backend: Hello! from ${message} commit ${code_hash}`);
+  res.send(`Node.js backend: Howdy! from ${message} commit ${code_hash}`);
   // res.send(`Hello World! from ${ipaddress} in AZ-${az} which has been up for ` + process.uptime() + 'ms');
 });
 
